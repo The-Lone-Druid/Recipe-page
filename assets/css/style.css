@@ -1,0 +1,49 @@
+.text-preset-1 {
+  font-family: Young Serif;
+  font-size: 2.5rem;
+  line-height: 100%;
+
+  @media screen and (max-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+.text-preset-2 {
+  font-family: Young Serif;
+  font-size: 1.75rem;
+  line-height: 100%;
+}
+
+.text-preset-3 {
+  font-family: Outfit;
+  font-size: 1.25rem;
+  line-height: 100%;
+}
+
+.text-preset-4 {
+  font-family: Outfit;
+  font-size: 1rem;
+  line-height: 150%;
+}
+
+.text-preset-4-bold {
+  font-family: Outfit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+li::marker {
+  color: #854632 !important;
+  font-weight: bold !important;
+}
+
+.table-bordered {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #e5e5e5;
+}
