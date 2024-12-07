@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github URL](https://github.com/The-Lone-Druid/Recipe-page)
+- Live Site URL: [Deployed URL](https://the-lone-druid.github.io/Recipe-page/)
 
 ## My process
 
@@ -36,61 +36,66 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Tailwind CSS](https://reactjs.org/) - TailwindCSS CSS Library
+- Figma - Designing the layout
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+- Learned how to use TailwindCSS and it's theme configuration feature
+- Learned how to understand the Design System and implement it in the code especially using TailwindCSS theme configuration feature
+- Learned how to and when to write custom CSS when required
+- Learned complex layouting and flexbox and grid layouting
+- Learned how to make responsvie design using TailwindCSS modifiers
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="md:p-500">
+  <img
+    src="./assets/images/image-omelette.jpeg"
+    alt="Recepie image"
+    srcset="./assets/images/image-omelette.jpeg"
+    class="rounded-150 w-full"
+  />
+</div>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+li::marker {
+  color: #854632 !important;
+  font-weight: bold !important;
 }
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        rose: {
+          800: "#7a284e",
+          50: "#fff7fb",
+        },
+      },
+    },
+  },
 };
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- Will continue making more projects with complex layouts and design, also will move forward to make projects using JavaScript as well
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [TailwindCSS Documentation](https://tailwindcss.com/docs) - This helped me understand the TailwindCSS and it's features and how to use it in the project. I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Zahid Shaikh](https://www.zahidshaikh.space)
+- Frontend Mentor - [@The-Lone-Druid](https://www.frontendmentor.io/profile/The-Lone-Druid)
+- Github - [The-Lone-Druid](https://www.github.com/The-Lone-Druid)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [Frontend Mentor](https://www.frontendmentor.io) - For providing such a great platform to practice and learn new things
